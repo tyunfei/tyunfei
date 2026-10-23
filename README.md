@@ -57,49 +57,69 @@ My experience spans data analysis, deep learning, backend development, and AI-po
 
 ## 🚀 Featured Projects
 
-A selection of projects where I've applied data analytics, machine learning, deep learning, and software development to practical problems.
+Here are five published projects spanning **machine learning, NLP, generative AI, full-stack development, and relational databases**. Each repository includes implementation details, results, and evaluation notes.
+
+### 🔠 [Handwritten Letter Recognition — CNN](https://github.com/tyunfei/emnist-handwritten-letter-recognition)
+
+**Python · TensorFlow · Keras · Computer Vision**
+
+Built and compared CNN architectures for 26-class handwritten letter recognition with the EMNIST dataset.
+
+- Explored data augmentation, batch normalisation, dropout, and model optimisation.
+- The improved augmented CNN recorded **93.54% accuracy** on its separate test split. A later tuned run recorded 94.08%, but reused test data for validation, as documented in the repository.
+- [Explore the code and results →](https://github.com/tyunfei/emnist-handwritten-letter-recognition)
+
+### 🌱 [Wellness Challenge — Full-Stack Web App](https://github.com/tyunfei/wellness-challenge-web-app)
+
+**JavaScript · Node.js · Express · MySQL · JWT**
+
+Built a gamified wellness application featuring user authentication, health challenges, point and coin rewards, leaderboards, progress dashboards, and adoptable virtual pets.
+
+- Implemented backend APIs, database models, and a browser-based frontend.
+- Published as an **academic prototype** with setup instructions and implementation limitations.
+- [Explore the application →](https://github.com/tyunfei/wellness-challenge-web-app)
+
+### 🍕 [Pizza Review Sentiment Analysis — LSTM](https://github.com/tyunfei/pizza-review-sentiment-lstm)
+
+**Python · NLP · TensorFlow · LSTM**
+
+Developed a three-class sentiment classifier for positive, neutral, and negative pizza reviews.
+
+- Compared recurrent architectures and explored class weighting.
+- The weighted LSTM recorded **91.03% accuracy** and **0.900 macro F1** in the original evaluation. Preprocessing limitations are disclosed in the project notes.
+- [Explore the experiments →](https://github.com/tyunfei/pizza-review-sentiment-lstm)
+
+### 🎨 [Fashion-MNIST — Variational Autoencoders & Latent Space](https://github.com/tyunfei/fashion-mnist-vae-latent-space)
+
+**Python · TensorFlow · Keras · Generative AI**
+
+Investigated image reconstruction and generation across different VAE latent dimensions and compared an improved VAE with a standard autoencoder.
+
+- Visualised latent representations, generated samples, and reconstruction errors.
+- Recorded a **6.66% reduction in mean reconstruction error** on a shared, training-included comparison set (not an independent test result).
+- [Explore the VAE visualisations →](https://github.com/tyunfei/fashion-mnist-vae-latent-space)
+
+### 🗃️ [Green Grass Library — SQL & Database Design](https://github.com/tyunfei/green-grass-library-sql)
+
+**MySQL · SQL · EERD · Relational Database Design**
+
+Designed a six-table library database modelling membership tiers, book copies, staff, and borrowing transactions.
+
+- Created SQL queries for repeat borrowing, membership upgrades, and loan eligibility.
+- Documented design decisions, data limitations, and a synthetic demonstration dataset.
+- [Explore the schema and queries →](https://github.com/tyunfei/green-grass-library-sql)
 
 ### 🤖 ROOTSHIFT — AI-Powered Operational Exception Investigation
 
-**Python | FastAPI | Qwen LLM | AI Agents**
+**Python · FastAPI · Qwen LLM · AI Agents**
 
-Contributed to a team-built hackathon prototype designed to investigate routine operational exceptions.
+Contributed to a team-built OCBC IGNITE hackathon prototype designed to investigate routine operational exceptions.
 
-- Developed an AI investigation service combining deterministic root-cause analysis with LLM-assisted explanations.
-- Implemented evidence-based investigation outputs, recommended actions, and human-review safeguards.
-- Integrated the investigation service with a Node.js backend through REST APIs.
+- Developed an AI investigation service combining deterministic root-cause logic with LLM-assisted explanations.
+- Produced evidence-based investigation outputs, proposed actions, and human-review safeguards.
+- Integrated the Python investigation service with a Node.js backend through REST APIs.
 
-### 🔠 Handwritten Letter Recognition — CNN
-
-**Python | TensorFlow | Keras | Computer Vision**
-
-Developed and evaluated convolutional neural networks to classify handwritten English letters using the EMNIST dataset.
-
-- Applied batch normalisation and dropout to improve model performance.
-- Evaluated model performance on unseen test data.
-- **Achieved 93.34% test accuracy.**
-
-### 🍕 Pizza Review Sentiment Analysis — LSTM
-
-**Python | NLP | TensorFlow | LSTM**
-
-Built a sentiment classification model to categorise pizza reviews into positive, negative, and neutral sentiments.
-
-- Explored recurrent neural network architectures and class-imbalance handling.
-- Evaluated predictive performance using accuracy and macro F1-score.
-- **Achieved 91.03% accuracy and a macro F1-score of 0.900** with a weighted LSTM approach.
-
-### 🎨 Generative Deep Learning — VAE & DCGAN
-
-**Python | TensorFlow | Generative AI**
-
-Explored Variational Autoencoders and Deep Convolutional Generative Adversarial Networks for image generation using MNIST and Fashion-MNIST.
-
-- Developed and evaluated generative deep learning models.
-- Investigated latent space representations and generated image quality.
-- Analysed model behaviour, including posterior collapse in VAE experiments.
-
-*Detailed repositories and project documentation are being prepared.*
+*The hackathon code is not yet published as a dedicated portfolio repository.*
 
 ---
 
