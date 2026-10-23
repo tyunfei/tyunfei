@@ -46,6 +46,6 @@ I'm also the **Head of Outreach at Gryphons Cybersecurity Club**, where I contri
 
 ### 📫 Connect With Me
 
-[LinkedIn](www.linkedin.com/in/toh-yun-fei)
+[LinkedIn](https://www.linkedin.com/in/toh-yun-fei/)
 
 *Always learning, building, and exploring new possibilities in technology.*
